@@ -13,6 +13,10 @@
       "module/styles.css"
     ],
     "template": "module/character_sheet.html",
+    "manifestPlusVersion": "1.2.1",
+	"url": "https://github.com/shilviakaral/rbrbcs",
+	"manifest": "https://github.com/shilviakaral/rbrbcs/blob/main/module.json",
+	"download": "https://github.com/shilviakaral/rbrbcs/blob/main/rightouse.zip",
     "relationships": {
       "systems": [
         {
