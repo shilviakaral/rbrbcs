@@ -1,0 +1,48 @@
+{
+    "name": "righteous-blood-ruthless-blades",
+    "title": "Righteous Blood Ruthless Blades",
+    "description": "A character sheet for the Righteous Blood Ruthless Blades system.",
+    "author": "Your Name",
+    "version": "0.1.0",
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "0.8.0",
+    "scripts": [
+      "module/character_sheet.js"
+    ],
+    "styles": [
+      "module/styles.css"
+    ],
+    "template": "module/character_sheet.html",
+    "relationships": {
+      "systems": [
+        {
+          "id": "dnd5e",
+          "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+          "compatibility": {
+            "minimum": "2.1.2",
+            "verified": "2.1.2"
+          }
+        },
+        {
+          "id": "sw5e",
+          "type": "system"
+        }
+      ],
+      "requires": [],
+      "conflicts": [
+        {
+          "id": "spell-level-buttons-for-dnd5e",
+          "reason": "Redundancy of features you can disable 'Spell Level Buttons for DnD 5e' module if you want"
+        },
+        {
+          "id": "lazymoney",
+          "reason": "Redundancy of features you can disable 'Lazy Money' module if you want"
+        },
+        {
+          "id": "spell-class-filter-for-5e",
+          "reason": "Redundancy of features you can disable 'Multiclass Spellbook Filter'"
+        }
+      ]
+    }
+  }
+  
